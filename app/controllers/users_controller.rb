@@ -10,7 +10,7 @@ class UsersController < ApplicationController
       session[:user_id] = @user.id
       redirect_to "/", notice: 'Account created successfully'
     else
-      flash[:error] = 'An error occured!'
+      flash[:error] = "Invalid Credentials"
       render 'new'
     end
   end

@@ -3,7 +3,11 @@
   <header class="page-header">
     <h1>Sign Up!</h1>
   </header>
-
+  <% if flash[:error] != "" %>
+    <p class="alert alert-danger"> 
+      <%= flash[:error] %>
+    </p>
+  <% end %>
   <div class="container">
     <%= form_for :user, url: '/users' do |f| %>
       <div class="form-row">
