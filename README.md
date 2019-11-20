@@ -1,6 +1,20 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example.
+
+
+---
+
+## Description
+The Home page is where users are able to brows all of the products in the store. The display can be changed to only show a seleced category via the dropdown in the nave bar. 
+
+![Home Page](./images/home.png)
+
+The Admin link in the nav bar enables the store owner to update the products in the store and to add additional categories for products.
+
+The Cart is a very basic version that proceeds directly to payment when the pay with card button is clicked.
+
+![Cart View](./images/cart.png)
 
 
 ## Setup
